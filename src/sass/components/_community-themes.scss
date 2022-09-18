@@ -1,0 +1,67 @@
+.community-themes {
+    padding: 100px 0px 200px 0;
+    h2 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 143px;
+        color: #293241;
+    }
+
+    .themes {
+        @include grid(3, 127);
+
+        .img-wrapper {
+            width: 226px;
+            height: 226px;
+            background: #293241;
+            border-radius: 113px;
+            margin-bottom: 20px;
+
+            @include flex-center;
+        }
+
+        .title {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            color: #293241;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            color: #293241;
+        }
+
+        .card {
+            background: #ffffff;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+
+            &.text {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+                gap: 10px;
+                flex-flow: column;
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+                border-radius: 26px;
+                min-width: 293px;
+            }
+        }
+    }
+}

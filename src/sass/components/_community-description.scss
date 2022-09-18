@@ -1,0 +1,22 @@
+.community-description {
+    padding: 120px 0;
+    h2 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 84px;
+        line-height: 92px;
+        color: #3a3d40;
+
+        margin-bottom: 40px;
+    }
+    p {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 49px;
+        text-align: justify;
+        color: #293241;
+    }
+}

@@ -17,6 +17,7 @@
 @import "./components/contact-form";
 @import "./components/login";
 @import "./components/page-banner";
+@import "./components/page-banner-social";
 @import "./components/course-detail";
 @import "./components/course-detail-white";
 @import "./components/course-specification";
@@ -26,6 +27,9 @@
 @import "./components/registration";
 @import "./components/payment-verify";
 @import "./components/course-detail-para";
+@import "./components/community-description";
+@import "./components/community-themes";
+@import "./components/community-events";
 
 * {
     box-sizing: border-box;
