@@ -1,0 +1,106 @@
+.payment-verify {
+    padding: 162px 0px 72px 0;
+
+    h2 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        color: #66666650;
+        margin-bottom: 54px;
+
+        &.have-underline {
+            &::after {
+                content: "";
+                display: block;
+                width: 147px;
+                height: 6px;
+                background: #ee6c4d;
+                transform: matrix(1, 0, 0, -1, 0, 0);
+                margin-top: 27px;
+            }
+        }
+    }
+
+    .subheading {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #666666;
+        margin-bottom: 28px;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-bottom: 70px;
+        width: 100%;
+
+        thead {
+            background: #f0f0f0;
+            border: 1px solid rgba(58, 61, 64, 0.6);
+        }
+        th,
+        td {
+            padding: 13px 46px;
+        }
+        tbody {
+            background-color: white;
+            border: 1px solid rgba(58, 61, 64, 0.6);
+            box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+            td:first-child {
+                width: 40%;
+            }
+
+            td {
+                div {
+                    margin: 13px 0;
+                }
+            }
+        }
+
+        th {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: #666666;
+        }
+
+        td {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.05em;
+            color: #666666;
+            vertical-align: top;
+        }
+
+        // tbody {
+        //     tr:nth-child(odd) {
+        //         background: #f0f0f0;
+        //     }
+        //     tr:nth-child(even) {
+        //         background: #fff;
+        //     }
+        // }
+
+        select {
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #898b8c;
+        }
+    }
+
+    .btn-holder {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

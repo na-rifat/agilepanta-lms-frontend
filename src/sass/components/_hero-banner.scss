@@ -1,0 +1,39 @@
+.hero-banner {
+    min-height: calc(100vh - 170px);
+    @include flex-middle;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    h1 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 73px;
+        line-height: 75px;
+        color: #293241;
+        margin-bottom: 40px;
+    }
+
+    .img-gallery {
+        .single-img {
+            margin-bottom: 10px;
+            img {
+                max-width: 651px;
+                height: auto;
+                width: 100%;
+            }
+        }
+        .img-grid {
+            display: grid;
+            width: 100%;
+            @include grid(4, 10);
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

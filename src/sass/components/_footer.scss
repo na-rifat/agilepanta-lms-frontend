@@ -1,0 +1,98 @@
+footer {
+    padding: 80px 0px 75px 0;
+    background: #293241;
+
+    .wrapper {
+        @include flex-spaced;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+    .company-summery {
+        font-family: $font-avenir-roman;
+        max-width: 319px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 49px;
+        color: #e0fbfc;
+        margin-bottom: 80px;
+    }
+
+    .socials {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 30px;
+
+        img {
+            transition: 0.2s all ease-out;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    .copyright {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+    }
+
+    h4 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 49px;
+        color: #e0fbfc;
+
+        margin-bottom: 30px;
+    }
+
+    .footer-row {
+        margin-bottom: 30px;
+    }
+
+    .contacts a {
+        font-family: $font-avenir-black;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 49px;
+        color: #e0fbfc;
+        text-decoration: none;
+
+        @include transition;
+
+        &:hover {
+            color: $color-orange;
+        }
+    }
+
+    .footer-nav {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 38px;
+
+        a {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 49px;
+            color: #e0fbfc;
+            text-decoration: none;
+            @include transition;
+
+            &:hover {
+                color: $color-orange;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.course-categories {
+    padding: 186px 0px 60px 0;
+
+    h2 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 107px;
+        line-height: 62px;
+        display: flex;
+        align-items: center;
+        color: #293241;
+        margin-bottom: 70px;
+    }
+
+    .heading-description {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 49px;
+        color: #293241;
+        margin-bottom: 150px;
+    }
+
+    h3 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 55px;
+        line-height: 38px;
+        color: #3a3d40;
+        margin-bottom: 100px;
+    }
+
+    .categories {
+        @include grid(3, 16);
+
+        .category {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 130px 50px;
+            gap: 47px;
+            transition: 0.2s all ease-out;
+            background: #e0fbfc;
+            cursor: pointer;
+
+            .title {
+                font-family: $font-avenir-roman;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 31px;
+                line-height: 33px;
+                color: #000000;
+            }
+
+            &:hover {
+                background: #293241;
+                .title {
+                    color: #e0fbfc;
+                }
+                .btn-learn-more {
+                    color: $color-orange;
+                }
+            }
+        }
+    }
+}

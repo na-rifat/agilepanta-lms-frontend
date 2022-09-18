@@ -1,0 +1,33 @@
+.usp {
+    padding: 73px 0;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .usp-item {
+        display: flex;
+        flex-flow: column;
+        align-items: center;justify-content: center;
+        gap: 40px;
+
+        img {
+            max-width: 86px;
+            height: auto;
+
+        }
+
+        .caption {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #293241;
+        }
+    }
+}

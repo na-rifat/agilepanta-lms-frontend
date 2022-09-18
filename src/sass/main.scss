@@ -1,0 +1,89 @@
+// Config
+@import "./config/config";
+@import "./config/responsive";
+@import "./config/common";
+@import "./config/container";
+@import "./config/slick";
+// Components
+@import "./components/button";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/hero-banner";
+@import "./components/usp";
+@import "./components/upcoming-courses";
+@import "./components/course-categories";
+@import "./components/community-members";
+@import "./components/testimonials";
+@import "./components/contact-form";
+@import "./components/login";
+@import "./components/page-banner";
+@import "./components/course-detail";
+@import "./components/course-detail-white";
+@import "./components/course-specification";
+@import "./components/course-specification-shadow";
+@import "./components/select-courses";
+@import "./components/cart";
+@import "./components/registration";
+@import "./components/payment-verify";
+@import "./components/course-detail-para";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text-orange {
+    color: $color-orange;
+}
+
+.heading-description {
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $color-blue;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a {
+    color: #007aff;
+    text-decoration: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}

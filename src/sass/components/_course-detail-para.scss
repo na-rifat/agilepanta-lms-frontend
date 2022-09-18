@@ -1,0 +1,42 @@
+.course-detail-para {
+    padding: 85px 0px 124px 0;
+    background: rgba(224, 251, 252, 0.3);
+
+    h2 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        // line-height: 143px;
+        color: #293241;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        padding-left: 40px;
+        li {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 49px;
+            text-align: justify;
+            color: #293241;
+        }
+    }
+    p {
+        font-family: $font-avenir-roman;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 35px;
+        text-align: justify;
+        color: #293241;
+
+        strong {
+            font-weight: 500;
+            &.heavy-text {
+                font-weight: 900;
+            }
+        }
+    }
+}

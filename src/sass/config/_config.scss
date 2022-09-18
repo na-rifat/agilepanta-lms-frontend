@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Avenir Black";
+    src: url("../fonts/AvenirLTStd-Black.otf");
+}
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("../fonts/AvenirLTStd-Roman.otf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$font-avenir-black: "Avenir Black", sans-serif;
+$font-avenir-roman: "Avenir Roman", sans-serif;
+$font-mulish: "Mulish", sans-serif;
+$font-poppins: "Poppins", sans-serif;
+
+$color-blue: #293241;
+$color-orange: #ee6c4d;
+$color-half-black: #3d3d3d;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-grey: #12131380;
+
+$transition: 0.2s all ease-out;

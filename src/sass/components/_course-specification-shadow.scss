@@ -1,0 +1,39 @@
+.course-specs {
+    padding: 55px 0;
+
+    .wrapper {
+        @include grid(4, 132);
+    }
+
+    .spec {
+        @include flex-center;
+        flex-flow: column;
+        .img-wrapper {
+            border: 3px solid #ee6c4d;
+            width: 83px;
+            height: 82px;
+            border-radius: 50%;
+            @include flex-center;
+            margin-bottom: 32px;
+        }
+        .title {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 38px;
+            text-align: center;
+            color: #293241;
+        }
+        .value{
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #293241;
+            
+        }
+    }
+}

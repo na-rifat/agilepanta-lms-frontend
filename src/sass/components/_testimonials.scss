@@ -1,0 +1,100 @@
+.testimonials {
+    padding: 152px 0;
+    background: #f3fefe;
+
+    h3 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 38px;
+        color: rgba(18, 19, 19, 0.5);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    .items {
+        height: 100vh;
+        width: 100vw;
+        max-width: 667px;
+        max-height: 614px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .inner {
+        margin-top: calc(162px - 75px);
+        margin-left: -41px;
+        margin-right: 96px;
+
+        .item-inner {
+            padding-top: 75px;
+        }
+    }
+    .testimonial {
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+        .client-img {
+            width: 151px;
+            height: 151px;
+            object-fit: cover;
+            margin-bottom: 37px;
+            margin-top: -75px;
+        }
+
+        .name {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            color: #3d3d3d;
+            margin-bottom: 3px;
+        }
+
+        .designation {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #3d3d3d;
+            margin-bottom: 22px;
+        }
+
+        .ranking {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        .message {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 17px;
+            color: #000000;
+            max-width: 243px;
+            margin-bottom: 80px;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.upcoming-courses {
+    padding: 156px 0px 214px 0;
+    background-color: #e0fbfc;
+
+    h2 {
+        margin-bottom: 67px;
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 53px;
+        line-height: 62px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    .holder {
+        display: flex;
+        gap: 110px;
+        align-items: center;
+        .title {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 46px;
+            line-height: 94px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        .courses {
+            margin-bottom: 60px;
+            .course {
+                // padding-bottom: 25px;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+            }
+        }
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .publish-date,
+            .duration {
+                font-family: $font-avenir-roman;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 25px;
+                line-height: 94px;
+                display: flex;
+                align-items: center;
+                color: #ee6c4d;
+            }
+        }
+    }
+}

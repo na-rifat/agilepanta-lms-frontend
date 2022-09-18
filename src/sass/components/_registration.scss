@@ -1,0 +1,106 @@
+.registration {
+    padding: 162px 0px 72px 0;
+
+    h2 {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        color: #66666650;
+        margin-bottom: 54px;
+        text-align: center;
+
+        &.have-underline {
+            &::after {
+                content: "";
+                display: block;
+                width: 41px;
+                height: 6px;
+                background: #ee6c4d;
+                transform: matrix(1, 0, 0, -1, 0, 0);
+                margin-top: 27px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .subheading {
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #666666;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .btn-holder {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 55px;
+    }
+
+    .have-account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        font-family: $font-avenir-roman;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 24px;
+        color: #0b0a0a60;
+        gap: 10px;
+
+        div {
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 24px;
+            color: #0b0a0a60;
+        }
+
+        a {
+            color: $color-orange;
+        }
+    }
+
+    .input-grp {
+        display: flex;
+        flex-flow: column;
+        max-width: 695px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 84px;
+
+        input {
+            border: none;
+            padding: 19px 0px;
+            font-family: $font-avenir-roman;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 24px;
+            color: #66666630;
+            border-bottom: 1px solid #898b8c;
+            outline: none;
+            margin: 10px 0;
+            @include transition;
+
+            &::placeholder {
+                color: #66666630;
+            }
+
+            &:focus {
+                border-color: $color-orange;
+            }
+        }
+    }
+}
